@@ -1,16 +1,16 @@
 package storage
 
 import (
-	"github.com/HPISTechnologies/component-lib/actor"
-	ccurl "github.com/HPISTechnologies/concurrenturl/v2"
+	"github.com/arcology/component-lib/actor"
+	ccurl "github.com/arcology/concurrenturl/v2"
 
 	"go.uber.org/zap"
 
-	"github.com/HPISTechnologies/common-lib/types"
-	"github.com/HPISTechnologies/component-lib/log"
+	"github.com/arcology/common-lib/types"
+	"github.com/arcology/component-lib/log"
 
-	urlcommon "github.com/HPISTechnologies/concurrenturl/v2/common"
-	"github.com/HPISTechnologies/concurrenturl/v2/type/commutative"
+	urlcommon "github.com/arcology/concurrenturl/v2/common"
+	"github.com/arcology/concurrenturl/v2/type/commutative"
 )
 
 type ApcWorker struct {

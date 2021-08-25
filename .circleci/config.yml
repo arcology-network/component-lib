@@ -8,7 +8,7 @@ jobs:
     working_directory: /go/src/github.com/{{ORG_NAME}}/{{REPO_NAME}}
     steps:
       - checkout
-      - run: go env -w GOPRIVATE=github.com/HPISTechnologies
+      - run: go env -w GOPRIVATE=github.com/arcology
       - run: go build -tags 'nosproc nometri' ./...
       - run: go test -tags 'nosproc nometri CI' -v ./... -coverprofile=coverage.txt -covermode=atomic
       - run: bash <(curl -s https://codecov.io/bash) -t 942138d9-83be-4bd9-ae3c-276d09cc6224

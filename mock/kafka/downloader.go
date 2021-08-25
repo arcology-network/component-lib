@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/HPISTechnologies/component-lib/actor"
-	"github.com/HPISTechnologies/component-lib/streamer"
+	"github.com/arcology/component-lib/actor"
+	"github.com/arcology/component-lib/streamer"
 )
 
 // Download implements IWorker interface.

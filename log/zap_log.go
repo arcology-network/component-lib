@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/HPISTechnologies/common-lib/common"
-	"github.com/HPISTechnologies/common-lib/types"
-	"github.com/HPISTechnologies/common-lib/version"
+	"github.com/arcology/common-lib/common"
+	"github.com/arcology/common-lib/types"
+	"github.com/arcology/common-lib/version"
 	"github.com/natefinch/lumberjack"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

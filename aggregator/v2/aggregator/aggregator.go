@@ -3,7 +3,7 @@ package aggregator
 import (
 	"reflect"
 
-	"github.com/HPISTechnologies/component-lib/actor"
+	"github.com/arcology/component-lib/actor"
 )
 
 type Aggregator struct {

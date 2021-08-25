@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	ethCommon "github.com/HPISTechnologies/3rd-party/eth/common"
-	tmCommon "github.com/HPISTechnologies/3rd-party/tm/common"
-	"github.com/HPISTechnologies/common-lib/types"
-	"github.com/HPISTechnologies/component-lib/actor"
-	"github.com/HPISTechnologies/component-lib/log"
+	ethCommon "github.com/arcology/3rd-party/eth/common"
+	tmCommon "github.com/arcology/3rd-party/tm/common"
+	"github.com/arcology/common-lib/types"
+	"github.com/arcology/component-lib/actor"
+	"github.com/arcology/component-lib/log"
 	"github.com/spf13/viper"
 )
 

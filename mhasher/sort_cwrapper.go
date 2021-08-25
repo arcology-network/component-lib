@@ -16,7 +16,7 @@ import "C" //must flow above
 import (
 	"unsafe"
 
-	"github.com/HPISTechnologies/common-lib/codec"
+	"github.com/arcology/common-lib/codec"
 )
 
 func SortBytes(datas [][]byte) ([][]byte, error) {

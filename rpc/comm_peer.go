@@ -6,7 +6,7 @@ import (
 	"encoding/gob"
 	"fmt"
 
-	"github.com/HPISTechnologies/component-lib/actor"
+	"github.com/arcology/component-lib/actor"
 	"github.com/smallnest/rpcx/client"
 	"github.com/smallnest/rpcx/protocol"
 	"github.com/smallnest/rpcx/server"

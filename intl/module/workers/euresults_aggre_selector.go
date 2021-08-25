@@ -1,12 +1,12 @@
 package workers
 
 import (
-	ethCommon "github.com/HPISTechnologies/3rd-party/eth/common"
-	"github.com/HPISTechnologies/common-lib/common"
-	"github.com/HPISTechnologies/common-lib/types"
-	"github.com/HPISTechnologies/component-lib/actor"
-	"github.com/HPISTechnologies/component-lib/aggregator/aggregator"
-	"github.com/HPISTechnologies/component-lib/log"
+	ethCommon "github.com/arcology/3rd-party/eth/common"
+	"github.com/arcology/common-lib/common"
+	"github.com/arcology/common-lib/types"
+	"github.com/arcology/component-lib/actor"
+	"github.com/arcology/component-lib/aggregator/aggregator"
+	"github.com/arcology/component-lib/log"
 	"go.uber.org/zap"
 )
 

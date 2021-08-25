@@ -1,8 +1,8 @@
 package aggregator
 
 import (
-	ethCommon "github.com/HPISTechnologies/3rd-party/eth/common"
-	"github.com/HPISTechnologies/common-lib/common"
+	ethCommon "github.com/arcology/3rd-party/eth/common"
+	"github.com/arcology/common-lib/common"
 )
 
 type Selector struct {

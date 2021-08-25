@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/HPISTechnologies/3rd-party/tm/cli"
-	tmCommon "github.com/HPISTechnologies/3rd-party/tm/common"
+	"github.com/arcology/3rd-party/tm/cli"
+	tmCommon "github.com/arcology/3rd-party/tm/common"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 )

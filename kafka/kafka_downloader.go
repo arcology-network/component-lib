@@ -3,9 +3,9 @@ package kafka
 import (
 	"strings"
 
-	"github.com/HPISTechnologies/component-lib/actor"
-	"github.com/HPISTechnologies/component-lib/kafka/lib"
-	"github.com/HPISTechnologies/component-lib/log"
+	"github.com/arcology/component-lib/actor"
+	"github.com/arcology/component-lib/kafka/lib"
+	"github.com/arcology/component-lib/log"
 )
 
 type KafkaDownloader struct {

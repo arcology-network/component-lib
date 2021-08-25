@@ -1,6 +1,6 @@
 package aggregator
 
-import ethCommon "github.com/HPISTechnologies/3rd-party/eth/common"
+import ethCommon "github.com/arcology/3rd-party/eth/common"
 
 type DataPool struct {
 	data map[ethCommon.Hash]interface{}

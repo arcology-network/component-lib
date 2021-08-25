@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"testing"
 
-	ethCommon "github.com/HPISTechnologies/3rd-party/eth/common"
-	ethTypes "github.com/HPISTechnologies/3rd-party/eth/types"
-	"github.com/HPISTechnologies/common-lib/common"
-	"github.com/HPISTechnologies/common-lib/types"
+	ethCommon "github.com/arcology/3rd-party/eth/common"
+	ethTypes "github.com/arcology/3rd-party/eth/types"
+	"github.com/arcology/common-lib/common"
+	"github.com/arcology/common-lib/types"
 )
 
 func TestEncodeMessage(t *testing.T) {

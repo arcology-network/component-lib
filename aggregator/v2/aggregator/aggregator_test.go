@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/HPISTechnologies/component-lib/actor"
+	"github.com/arcology/component-lib/actor"
 )
 
 func TestAddDataThenPick(t *testing.T) {
