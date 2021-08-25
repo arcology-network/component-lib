@@ -90,6 +90,8 @@ const (
 	MsgProposeBlock       = "proposeblock"
 	MsgValidateBlock      = "validateblock"
 	MsgBlockVertified     = "blockvertified"
+
+	MsgConflictHistory = "conflictHistory"
 )
 
 type Comparable interface {

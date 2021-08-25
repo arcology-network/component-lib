@@ -5,8 +5,8 @@ go 1.15
 require (
 	github.com/BurntSushi/toml v0.3.1
 	github.com/HPISTechnologies/3rd-party v0.9.2-0.20210626004852-924da2642860
-	github.com/HPISTechnologies/common-lib v0.9.2-0.20210723081814-27fd7501e9a7
-	github.com/HPISTechnologies/concurrenturl v0.0.0-20210805082206-07279061ea3e
+	github.com/HPISTechnologies/common-lib v0.9.2-0.20210813071015-d82c13b835bc
+	github.com/HPISTechnologies/concurrenturl v0.0.0-20210813071254-f1d6902f87ce
 	github.com/Shopify/sarama v1.24.1
 	github.com/StackExchange/wmi v1.2.0 // indirect
 	github.com/bsm/sarama-cluster v2.1.15+incompatible

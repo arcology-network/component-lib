@@ -2,15 +2,15 @@ package storage
 
 import (
 	"github.com/HPISTechnologies/component-lib/actor"
-	"github.com/HPISTechnologies/concurrenturl"
+	ccurl "github.com/HPISTechnologies/concurrenturl/v2"
 
 	"go.uber.org/zap"
 
 	"github.com/HPISTechnologies/common-lib/types"
 	"github.com/HPISTechnologies/component-lib/log"
 
-	urlcommon "github.com/HPISTechnologies/concurrenturl/common"
-	"github.com/HPISTechnologies/concurrenturl/type/commutative"
+	urlcommon "github.com/HPISTechnologies/concurrenturl/v2/common"
+	"github.com/HPISTechnologies/concurrenturl/v2/type/commutative"
 )
 
 type ApcWorker struct {
@@ -27,9 +27,10 @@ func NewApcWorker(lanes int, groupid string) *ApcWorker {
 }
 
 func (awt *ApcWorker) OnStart() {
+	platform := urlcommon.NewPlatform()
 	persistentDB := urlcommon.NewDataStore()
-	meta, _ := commutative.NewMeta(urlcommon.ACCOUNT_BASE_URL)
-	persistentDB.Save(urlcommon.ACCOUNT_BASE_URL, meta)
+	meta, _ := commutative.NewMeta(platform.Eth10Account())
+	persistentDB.Save(platform.Eth10Account(), meta)
 	awt.DB = persistentDB
 }
 
@@ -67,7 +68,7 @@ func (awt *ApcWorker) OnMessageArrived(msgs []*actor.Message) error {
 	switch result {
 	case actor.MsgBlockCompleted_Success:
 		if euresults != nil {
-			url := concurrenturl.NewConcurrentUrl(awt.DB)
+			url := ccurl.NewConcurrentUrl(awt.DB)
 			txIds, transitions := GetTransitions(*euresults)
 			awt.AddLog(log.LogLevel_Info, "=====================================", zap.Int("transitions", len(transitions)), zap.Int("txIds", len(txIds)))
 			url.Commit(transitions, txIds)
