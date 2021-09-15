@@ -4,8 +4,8 @@ import (
 	"math"
 	"sort"
 
-	"github.com/arcology/common-lib/common"
-	"github.com/arcology/component-lib/actor"
+	"github.com/arcology-network/common-lib/common"
+	"github.com/arcology-network/component-lib/actor"
 )
 
 const (

@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/arcology/common-lib/common"
-	"github.com/arcology/component-lib/actor"
-	"github.com/arcology/component-lib/log"
+	"github.com/arcology-network/common-lib/common"
+	"github.com/arcology-network/component-lib/actor"
+	"github.com/arcology-network/component-lib/log"
 	"github.com/Shopify/sarama"
 	"go.uber.org/zap"
 )

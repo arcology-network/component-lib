@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	ethCommon "github.com/arcology/3rd-party/eth/common"
-	tmCommon "github.com/arcology/3rd-party/tm/common"
-	"github.com/arcology/common-lib/types"
-	"github.com/arcology/component-lib/actor"
-	"github.com/arcology/component-lib/log"
+	ethCommon "github.com/arcology-network/3rd-party/eth/common"
+	tmCommon "github.com/arcology-network/3rd-party/tm/common"
+	"github.com/arcology-network/common-lib/types"
+	"github.com/arcology-network/component-lib/actor"
+	"github.com/arcology-network/component-lib/log"
 	"github.com/spf13/viper"
 )
 

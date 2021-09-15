@@ -3,8 +3,8 @@ package actor
 import (
 	"fmt"
 
-	"github.com/arcology/component-lib/log"
-	"github.com/arcology/component-lib/streamer"
+	"github.com/arcology-network/component-lib/log"
+	"github.com/arcology-network/component-lib/streamer"
 )
 
 type Actor struct {

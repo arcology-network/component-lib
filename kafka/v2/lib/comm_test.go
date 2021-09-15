@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology/component-lib/actor"
+	"github.com/arcology-network/component-lib/actor"
 	"github.com/Shopify/sarama"
 	"github.com/Shopify/sarama/mocks"
 	cluster "github.com/bsm/sarama-cluster"

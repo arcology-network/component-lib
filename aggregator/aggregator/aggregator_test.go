@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/arcology/3rd-party/eth/common"
-	ethCommon "github.com/arcology/3rd-party/eth/common"
-	"github.com/arcology/common-lib/types"
+	"github.com/arcology-network/3rd-party/eth/common"
+	ethCommon "github.com/arcology-network/3rd-party/eth/common"
+	"github.com/arcology-network/common-lib/types"
 )
 
 func Test_Inclusive(t *testing.T) {

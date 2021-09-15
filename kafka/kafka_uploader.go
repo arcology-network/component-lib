@@ -3,8 +3,8 @@ package kafka
 import (
 	"strings"
 
-	"github.com/arcology/component-lib/actor"
-	"github.com/arcology/component-lib/kafka/lib"
+	"github.com/arcology-network/component-lib/actor"
+	"github.com/arcology-network/component-lib/kafka/lib"
 )
 
 type KafkaUploader struct {

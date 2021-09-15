@@ -3,9 +3,9 @@ package kafka
 import (
 	"strings"
 
-	"github.com/arcology/common-lib/types"
-	"github.com/arcology/component-lib/actor"
-	"github.com/arcology/component-lib/kafka/lib"
+	"github.com/arcology-network/common-lib/types"
+	"github.com/arcology-network/component-lib/actor"
+	"github.com/arcology-network/component-lib/kafka/lib"
 )
 
 type ExecutingLogServer struct {

@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"testing"
 
-	ethCommon "github.com/arcology/3rd-party/eth/common"
-	ethTypes "github.com/arcology/3rd-party/eth/types"
-	"github.com/arcology/common-lib/common"
-	"github.com/arcology/common-lib/types"
+	ethCommon "github.com/arcology-network/3rd-party/eth/common"
+	ethTypes "github.com/arcology-network/3rd-party/eth/types"
+	"github.com/arcology-network/common-lib/common"
+	"github.com/arcology-network/common-lib/types"
 )
 
 func TestEncodeMessage(t *testing.T) {

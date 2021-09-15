@@ -3,7 +3,7 @@ package v2
 import (
 	"reflect"
 
-	"github.com/arcology/component-lib/actor"
+	"github.com/arcology-network/component-lib/actor"
 )
 
 type Aggregator struct {

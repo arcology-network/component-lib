@@ -6,9 +6,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/arcology/component-lib/actor"
-	kafkalib "github.com/arcology/component-lib/kafka/lib"
-	"github.com/arcology/component-lib/log"
+	"github.com/arcology-network/component-lib/actor"
+	kafkalib "github.com/arcology-network/component-lib/kafka/lib"
+	"github.com/arcology-network/component-lib/log"
 	"go.uber.org/zap"
 )
 

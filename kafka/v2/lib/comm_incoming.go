@@ -3,8 +3,8 @@ package lib
 import (
 	"fmt"
 
-	"github.com/arcology/component-lib/actor"
-	"github.com/arcology/component-lib/log"
+	"github.com/arcology-network/component-lib/actor"
+	"github.com/arcology-network/component-lib/log"
 	"github.com/Shopify/sarama"
 	cluster "github.com/bsm/sarama-cluster"
 	//"go.uber.org/zap"

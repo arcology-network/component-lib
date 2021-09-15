@@ -1,16 +1,15 @@
-module github.com/arcology/component-lib
+module github.com/arcology-network/component-lib
 
 go 1.15
 
 require (
 	github.com/BurntSushi/toml v0.3.1
-	github.com/arcology/3rd-party v0.9.2-0.20210626004852-924da2642860
-	github.com/arcology/common-lib v0.9.2-0.20210813071015-d82c13b835bc
-	github.com/arcology/concurrenturl v0.0.0-20210813071254-f1d6902f87ce
+	github.com/arcology-network/3rd-party v0.9.2-0.20210626004852-924da2642860
+	github.com/arcology-network/common-lib v0.9.2-0.20210907015240-00e4f072f9b8
+	github.com/arcology-network/concurrenturl v0.0.0-20210908071701-a1f430c90b99
 	github.com/Shopify/sarama v1.24.1
-	github.com/StackExchange/wmi v1.2.0 // indirect
+	github.com/StackExchange/wmi v1.2.1 // indirect
 	github.com/bsm/sarama-cluster v2.1.15+incompatible
-	github.com/go-ole/go-ole v1.2.5 // indirect
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/prometheus/client_golang v1.1.0
 	github.com/rcrowley/go-metrics v0.0.0-20201227073835-cf1acfcdf475
@@ -21,3 +20,7 @@ require (
 	go.uber.org/zap v1.15.0
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0 // indirect
 )
+
+//replace github.com/arcology-network/common-lib => ../common-lib/
+
+//replace github.com/arcology-network/concurrenturl => ../concurrenturl/

@@ -4,8 +4,8 @@ import (
 	"encoding/binary"
 	"encoding/gob"
 
-	ethCommon "github.com/arcology/3rd-party/eth/common"
-	"github.com/arcology/common-lib/common"
+	ethCommon "github.com/arcology-network/3rd-party/eth/common"
+	"github.com/arcology-network/common-lib/common"
 )
 
 const (
@@ -92,6 +92,7 @@ const (
 	MsgBlockVertified     = "blockvertified"
 
 	MsgConflictHistory = "conflictHistory"
+	MsgGc              = "gc"
 )
 
 type Comparable interface {

@@ -1,8 +1,8 @@
 package actor
 
 import (
-	"github.com/arcology/component-lib/log"
-	"github.com/arcology/component-lib/streamer"
+	"github.com/arcology-network/component-lib/log"
+	"github.com/arcology-network/component-lib/streamer"
 )
 
 type MessageWrapper struct {
